@@ -1,3 +1,7 @@
 MonitorServer-Qt/*.pro.user
 */*.o
 MonitorServer-Gtk/main
+*/a.out
+MonitorServer-Qt/moc_*
+MonitorServer-Qt/ui_*
+MonitorServer-Qt/MonitorServer-Qt
