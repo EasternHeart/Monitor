@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include <QtNetwork/QtNetwork>
+
 namespace Ui {
 class MainWindow;
 }
@@ -15,8 +17,12 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QUdpSocket *udpSocket;
 };
 
 #endif // MAINWINDOW_H
