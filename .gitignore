@@ -1,0 +1,3 @@
+MonitorServer-Qt/*.pro.user
+*/*.o
+MonitorServer-Gtk/main
