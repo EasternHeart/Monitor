@@ -5,3 +5,4 @@ MonitorServer-Gtk/main
 MonitorServer-Qt/moc_*
 MonitorServer-Qt/ui_*
 MonitorServer-Qt/MonitorServer-Qt
+MonitorServer-Qt/Makefile
