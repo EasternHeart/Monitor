@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralWidget">
+<!--  <widget class="QWidget" name="centralWidget"> -->
    <widget class="QWidget" name="verticalWidget" native="true">
     <property name="geometry">
      <rect>
@@ -49,7 +49,7 @@
     </layout>
    </widget>
   </widget>
- </widget>
+ <!-- </widget> -->
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections/>
